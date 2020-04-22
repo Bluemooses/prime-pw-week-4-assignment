@@ -5,6 +5,8 @@ function parkCar(carName) {
   console.log('inside parkCar');
   if (parkedCars.length < maxCars) {
     return true;
+    parkedCars.push(carName);
+    return parkedCars;
   } else {
     return false;
   } //end else if check

@@ -20,3 +20,12 @@ parkCar('Mini Cooper');
 parkCar('Hyundai Sonata');
 console.log(parkedCars);
 console.log(parkCar());
+
+
+function isParkedHere( carNamed) {
+
+}//ends function isParkedHere.
+
+function takeForASpin (carName) {
+
+} //ends takeForASpin.

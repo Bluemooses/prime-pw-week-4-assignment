@@ -2,15 +2,12 @@ let parkedCars = []; //declare empty array parkedCars.
 const maxCars = 5;  //declare variable maxCars.
 
 function parkCar ( carName ) {
+  console.log('inside parkCar');
   if(parkedCars.length < maxCars){
-    return true;
     parkedCars.push(carName);
-
-
-  }//end if else check.
+    return true;
+  }
+  else{
+      return false;
+} //end else if check
 } //end function parkCar.
-parkCar('Jetta Wagon');
-parkCar('Nissan Versa');
-parkCar('Honda Civic');
-parkCar('Honda Fit');
-parkCar('Subaru Outback');

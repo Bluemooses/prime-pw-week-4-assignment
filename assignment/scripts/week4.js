@@ -12,11 +12,11 @@ function parkCar(carName) {
   } //end else if check
 } //end function parkCar.
 
-parkCar( 'Versa' );
-parkCar( 'Volvo' );
-parkCar( 'Cadillac');
-parkCar( 'Volkswagon' );
-parkCar( 'Mini Cooper' );
-parkCar( 'Hyundai Sonata');
+parkCar('Versa');
+parkCar('Volvo');
+parkCar('Cadillac');
+parkCar('Volkswagon');
+parkCar('Mini Cooper');
+parkCar('Hyundai Sonata');
 console.log(parkedCars);
 console.log(parkCar());

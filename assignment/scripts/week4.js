@@ -5,5 +5,7 @@ const maxCars = 5; //create constant for max cars allowed in garage.
 
 function parkCar(){
 console.log( 'Checking if I can park my car!'); //let's us know if we are in this function.
-return true;
 } //end parkCar
+
+parkCar();
+console.log('running parkCar function.')  //running function to check status.

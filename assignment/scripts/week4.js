@@ -10,3 +10,5 @@ function parkCar( carName ){ //creates function parkCar with an argument of carN
     return false;
   } //ending else statement
 }//ending parkCar function
+
+console.log(parkCar(""));

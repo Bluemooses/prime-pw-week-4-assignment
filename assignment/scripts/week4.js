@@ -11,4 +11,10 @@ function parkCar( carName ){ //creates function parkCar with an argument of carN
   } //ending else statement
 }//ending parkCar function
 
-console.log(parkCar(""));
+console.log(parkCar("Chevy Impala"));
+console.log(parkCar("Tesla X"));
+console.log(parkCar("Honda Accord"));
+console.log(parkCar("Volkswagon Jetta Wagon"));
+console.log(parkCar("Subaru Outback"));
+console.log(parkCar("Monte Carlo SS Coupe"));
+console.log(parkCar("Chevy Malibou"));

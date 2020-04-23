@@ -32,3 +32,7 @@ console.log(isParkedHere("Chevy Impala")); //calls isParkedHere function with ar
 console.log(isParkedHere("Tesla X"));
 console.log(isParkedHere("Honda Accord"));
 console.log(isParkedHere("Turbo Diesel Z500"));
+
+function takeForASpin( carName ){ //creates function takeForASpin with argument carName
+  
+}//ends function takeForASpin

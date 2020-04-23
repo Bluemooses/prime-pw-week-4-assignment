@@ -24,6 +24,8 @@ function isParkedHere( carNamed ){  //creates function isParkedHere
     return true; //returns true if a carNamed is parked in garage
   }
   else{
-    return false; //returns falsed if that car isn't parked in garage.
+    return false; //returns false if that car isn't parked in garage.
   }
 }//ends isParkedHere function
+
+console.log(isParkedHere("")); //calls isParkedHere function with argument in console.

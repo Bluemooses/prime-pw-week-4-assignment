@@ -28,4 +28,7 @@ function isParkedHere( carNamed ){  //creates function isParkedHere
   }
 }//ends isParkedHere function
 
-console.log(isParkedHere("")); //calls isParkedHere function with argument in console.
+console.log(isParkedHere("Chevy Impala")); //calls isParkedHere function with argument in console.
+console.log(isParkedHere("Tesla X"));
+console.log(isParkedHere("Honda Accord"));
+console.log(isParkedHere("Turbo Diesel Z500"));

@@ -18,3 +18,7 @@ console.log(parkCar("Volkswagon Jetta Wagon"));
 console.log(parkCar("Subaru Outback"));
 console.log(parkCar("Monte Carlo SS Coupe"));
 console.log(parkCar("Chevy Malibou"));
+
+function isParkedHere( carNamed ){
+  
+}//ends isParkedHere function

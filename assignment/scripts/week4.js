@@ -1,10 +1,10 @@
 let parkedCars = [];  //creating parkedCars array
 const maxCars = 5;  //const maxCars allowed
 
-function parkCar( carName ){
-  if(maxCars > parkedCars.length){
-    parkedCars.push(carName);
-    return true;
+function parkCar( carName ){ //creates function parkCar with an argument of carName.
+  if(maxCars > parkedCars.length){  //is there room in the garage to park the carName?
+    parkedCars.push(carName); //pushes argument parkCar to parkedCar
+    return true;  //returns true if a carName was pushed.
   } //ending if statement
   else{
     return false;

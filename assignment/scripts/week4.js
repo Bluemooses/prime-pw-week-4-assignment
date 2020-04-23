@@ -19,6 +19,11 @@ console.log(parkCar("Subaru Outback"));
 console.log(parkCar("Monte Carlo SS Coupe"));
 console.log(parkCar("Chevy Malibou"));
 
-function isParkedHere( carNamed ){
-  
+function isParkedHere( carNamed ){  //creates function isParkedHere
+  if(isParkedHere.includes( carNamed)){
+    return true; //returns true if a carNamed is parked in garage
+  }
+  else{
+    return false; //returns falsed if that car isn't parked in garage.
+  }
 }//ends isParkedHere function

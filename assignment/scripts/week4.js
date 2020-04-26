@@ -25,6 +25,7 @@ function isParkedHere( searchTerm){  //creates function isParkedHere with argume
     return true; //returns true if a carNamed is parked in garage
   }
   else{
+    console.log("We didn't find what we're looking for", searchTerm);
     return false; //returns false if that car isn't parked in garage.
   }
 }//ends isParkedHere function

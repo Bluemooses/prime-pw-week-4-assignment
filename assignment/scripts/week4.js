@@ -42,6 +42,14 @@ function takeForASpin( searchTerm ){ //creates function takeForASpin with argume
     console.log("parkingSpaceNumber =", parkingSpaceNumber); //logging that value
     parkedCars.splice(parkingSpaceNumber, 1);
     console.log("parked cars =", parkedCars); //logs parkedCar.
+    console.log(searchTerm);  //logs our searchTerm.
+    return searchTerm;  //returns searchTerm if if argument is true!
   } //ends our if check
-
+    else{
+      return false; //returns boolean false if we can't take our searchTerm for a spin!
+    };
 }//ends function takeForASpin
+
+console.log(parkedCars); //logging our cars parked in the garage.
+takeForASpin( "Chevy" ); //should return our searchTerm.
+takeForASpin( "Delorean" ) //should return false.

@@ -50,6 +50,6 @@ function takeForASpin( searchTerm ){ //creates function takeForASpin with argume
     };
 }//ends function takeForASpin
 
-// console.log(parkedCars); //logging our cars parked in the garage.
-// takeForASpin( "Chevy" ); //should return our searchTerm.
-// takeForASpin( "Delorean" ) //should return false.
+console.log(parkedCars); //logging our cars parked in the garage.
+takeForASpin( "Chevy" ); //should return our searchTerm.
+takeForASpin( "Delorean" ); //should return false.

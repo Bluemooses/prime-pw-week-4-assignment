@@ -38,5 +38,6 @@ function isParkedHere( searchTerm){  //creates function isParkedHere with argume
 function takeForASpin( searchTerm ){ //creates function takeForASpin with argument carName
   console.log("parked cars =", parkedCars);
   if(isParkedHere( searchTerm )){ //creates if argument on searchTerm
+    let parkingSpaceNumber = parkedCars.indexOf(searchTerm); //creates variable to check index of our searchTerm in parkedCars array
   } //ends our if check
 }//ends function takeForASpin

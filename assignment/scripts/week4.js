@@ -19,7 +19,7 @@ parkCar("Volvo", "Red", "654654654654");
 parkCar("Ford", "Purple", "65465465411321");
 
 
-function isParkedHere( carNamed ){  //creates function isParkedHere
+function isParkedHere( searchTerm){  //creates function isParkedHere with argument searchTerm.
   if(isParkedHere.includes( carNamed)){
     return true; //returns true if a carNamed is parked in garage
   }

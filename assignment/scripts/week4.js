@@ -30,11 +30,11 @@ function isParkedHere( searchTerm){  //creates function isParkedHere with argume
   }
 }//ends isParkedHere function
 
-console.log(isParkedHere("Chevy Impala")); //calls isParkedHere function with argument in console.
-console.log(isParkedHere("Tesla X"));
-console.log(isParkedHere("Honda Accord"));
-console.log(isParkedHere("Turbo Diesel Z500"));
+// console.log(isParkedHere("Chevy Impala")); //calls isParkedHere function with argument in console.
+// console.log(isParkedHere("Tesla X"));
+// console.log(isParkedHere("Honda Accord"));
+// console.log(isParkedHere("Turbo Diesel Z500"));
 
-function takeForASpin( carName ){ //creates function takeForASpin with argument carName
-
+function takeForASpin( searchTerm ){ //creates function takeForASpin with argument carName
+  console.log("parked cars =", parkedCars);
 }//ends function takeForASpin

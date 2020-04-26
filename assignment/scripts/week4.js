@@ -11,13 +11,13 @@ function parkCar( carName, color, vin ){ //creates function parkCar with an argu
   } //ending else statement
 }//ending parkCar function
 
-console.log(parkCar("Chevy Impala"));
-console.log(parkCar("Tesla X"));
-console.log(parkCar("Honda Accord"));
-console.log(parkCar("Volkswagon Jetta Wagon"));
-console.log(parkCar("Subaru Outback"));
-console.log(parkCar("Monte Carlo SS Coupe"));
-console.log(parkCar("Chevy Malibou"));
+parkCar( "Chevy", "Green", "654798752");
+parkCar( "Tesla", "Gold", "65479");
+parkCar("Honda", "Brown", "654798");
+parkCar("Nissan", "Blue", "7898796874685546");
+parkCar("Volvo", "Red", "654654654654");
+parkCar("Ford", "Purple", "65465465411321");
+
 
 function isParkedHere( carNamed ){  //creates function isParkedHere
   if(isParkedHere.includes( carNamed)){

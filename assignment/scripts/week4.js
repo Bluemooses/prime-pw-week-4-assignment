@@ -21,6 +21,7 @@ parkCar("Ford", "Purple", "65465465411321");
 
 function isParkedHere( searchTerm){  //creates function isParkedHere with argument searchTerm.
   if(parkedCars.some(car => car.model === searchTerm || car.color === searchTerm || car.vin === searchTerm)){
+    console.log("We found a match", searchTerm);
     return true; //returns true if a carNamed is parked in garage
   }
   else{

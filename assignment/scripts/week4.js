@@ -20,7 +20,7 @@ parkCar("Ford", "Purple", "65465465411321");
 
 
 function isParkedHere( searchTerm){  //creates function isParkedHere with argument searchTerm.
-  if(isParkedHere.includes( carNamed)){
+  if(parkedCars.some(car => car.model === searchTerm || car.color === searchTerm || car.vin === searchTerm)){
     return true; //returns true if a carNamed is parked in garage
   }
   else{

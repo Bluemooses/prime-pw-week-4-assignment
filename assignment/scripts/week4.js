@@ -3,7 +3,7 @@ const maxCars = 5;  //const maxCars allowed
 
 function parkCar( carName, color, vin ){ //creates function parkCar with an argument of carName.
   if(maxCars > parkedCars.length){  //is there room in the garage to park the carName?
-    parkedCars.push({model:carName, color: color, vin:vin); //pushes argument parkCar to parkedCar
+    parkedCars.push({model:carName, color: color, vin:vin}); //pushes argument parkCar to parkedCar
     return true;  //returns true if a carName was pushed.
   } //ending if statement
   else{
